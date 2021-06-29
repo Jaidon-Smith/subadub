@@ -180,6 +180,7 @@ scriptElem.text = `
     if (downloadButtonElem) {
       downloadButtonElem.style.color = 'black';
       downloadButtonElem.disabled = false;
+      downloadSRT();
     }
   }
 
